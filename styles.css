@@ -20,31 +20,28 @@ html {
 }
 
 body {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBMPlexMono", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
 
 .light {
-  --clr-bg: #f8f8e9;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+  --clr-bg: #e1e1e3;
+  --clr-bg-alt: #d1d3d8;
+  --clr-fg: #323437;
+  --clr-fg-alt: #aaaeb3;
+  --clr-primary: #e2b714;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+ }
+
 
 .dark {
-   --clr-bg: #737373;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #aaa;
-  --clr-fg-alt: #646464;
-  --clr-primary: #212222;
-  --clr-accent-1: #2884bb;
-  --clr-accent-2: #25a5a9;
-  --clr-accent-3: #de9c24;
-  --clr-accent-4: #d82231;
+  --clr-bg: #323437;
+  --clr-bg-alt:#2c2e31;
+  --clr-fg:#d1d0c5;
+  --clr-fg-alt:#646669;
+  --clr-primary:#e2b714;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }

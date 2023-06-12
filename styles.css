@@ -36,11 +36,15 @@ body {
 }
 
 .dark {
-  --clr-bg: #23283e;
+   --clr-bg: #737373;
   --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-fg: #aaa;
+  --clr-fg-alt: #646464;
+  --clr-primary: #212222;
+  --clr-accent-1: #2884bb;
+  --clr-accent-2: #25a5a9;
+  --clr-accent-3: #de9c24;
+  --clr-accent-4: #d82231;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }

@@ -20,19 +20,19 @@ html {
 }
 
 body {
-  font-family: "IBMPlexMono", sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
 
 .light {
-  --clr-bg:#b8a7aa;
-  --clr-bg-alt: #ab989e
-  --clr-primary: #ebe6ea;
-  --clr-fg:#48373d;
-  --clr-fg-alt:#48373f;
-  --shadow: rgba(171, 152, 158, .2) 0px 7px 29px 0px;
+  --clr-bg: #f8f8e9;
+  --clr-bg-alt: #fff;
+  --clr-fg: #555;
+  --clr-fg-alt: #444;
+  --clr-primary: #2978b5;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {

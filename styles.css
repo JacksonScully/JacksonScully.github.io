@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);

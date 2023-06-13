@@ -25,6 +25,17 @@ body {
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
+
+.light {
+  --clr-bg: #ebe5d9;
+  --clr-bg-alt:#e7ded1;
+  --clr-fg-alt: #474b4e;
+  --clr-fg:#282828;
+  --clr-fg-alt-1:#646b63;
+  --clr-primary: #7f6689;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+}
+
 .dark {
   /* RAL - Signal Black */
   --clr-bg: #282828;
@@ -41,19 +52,6 @@ body {
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-
-.light {
-  --clr-bg: #ebe5d9;
-  --clr-bg-alt:#e7ded1;
-  --clr-fg-alt: #474b4e;
-  --clr-fg:#282828;
-  --clr-fg-alt-1:#646b63;
-  --clr-primary: #7f6689;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
-}
-
-
-
 
 ::-moz-selection {
   background: var(--clr-primary);

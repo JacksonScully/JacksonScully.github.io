@@ -25,29 +25,35 @@ body {
   color: var(--clr-fg);
   background-color: var(--clr-bg);
 }
+.dark {
+  /* RAL - Signal Black */
+  --clr-bg: #282828;
+  /* RAL - Black Brown */
+  --clr-bg-alt:#212121;
+  /* RAL - Silk Grey*/
+  --clr-fg: #cac4b0;
+  /* RAL -  Pearl Mouse Grey*/
+  --clr-fg-alt: #898176;
+  /* RAL - Platinum Grey*/
+  --clr-fg-alt-1: #7f7679;
+  /* RAL -  Mouse Grey*/
+  --clr-primary:#646b63;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
 
 .light {
-  --clr-bg:#a0a0a0;
-  --clr-primary:#937173;
-  --clr-bg-alt:#8d8d8d;
-  --clr-fg-alt:#353535;
-  --clr-fg-alt:#3b2d3b;
+  --clr-bg: #ebe5d9;
+  --clr-bg-alt:#e7ded1;
+  --clr-fg-alt: #474b4e;
+  --clr-fg:#282828;
+  --clr-fg-alt-1:#646b63;
+  --clr-primary: #7f6689;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
 }
 
 
-.dark {
-  --clr-bg: #737373;
-  --clr-bg-alt:#0066ff;
-  /* text color */
-  --clr-fg: #212222;
-  /* random color */
-  --clr-fg-alt: #aaaaaa;
-  /* accent color */
-  --clr-primary:#ffc800;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
+
 
 ::-moz-selection {
   background: var(--clr-primary);
@@ -269,6 +275,7 @@ main {
 
 .about__role {
   margin-top: 1.2em;
+  color: var(--clr-fg-alt-1);
 }
 
 .about__desc {
@@ -330,6 +337,9 @@ main {
 .project .link--icon {
   margin-left: 0.5em;
 }
+.project__name{
+  color: var(--clr-fg-alt-1);
+}
 .writeup__panel-left {
   padding: 2em;
   text-align: left;
@@ -385,6 +395,9 @@ main {
   margin-left: 0.5em;
 }
 
+.writeup__name{
+  color: var(--clr-fg-alt-1);
+}
 .skills__list {
   max-width: 450px;
   width: 95%;
